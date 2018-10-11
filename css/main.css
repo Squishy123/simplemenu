@@ -45,6 +45,7 @@ html, body {
 
 .menu-collapse {
     position: fixed;
+    overflow: scroll;
     right: 0;
 }
 
@@ -67,6 +68,7 @@ html, body {
     border-bottom-style: solid;
     border-bottom-color: rgb(219, 217, 210);
 }
+
 
 @media (min-width: 700px) {
     .menu-pages {
@@ -92,6 +94,10 @@ html, body {
 
     .menu-collapse-toggle {
         visibility: collapse;
+    }
+
+    .menu-logo {
+        opacity: 1;;
     }
 }
 
